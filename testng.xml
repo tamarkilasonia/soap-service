@@ -1,10 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TestSuite API">
-    <test name="FirstTest">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SOAP Service Integration Test Suite" parallel="false">
+    <test name="Employee SOAP Tests">
         <classes>
-            <class name="ge.tbc.testautomation.ApiTests.ContinentsApiTest"/>
-            <class name="ge.tbc.testautomation.ApiTests.EmployeeApiTest"/>
+            <class name="ge.tbc.testautomation.ApiTests.EmployeeSOAPTests"/>
+        </classes>
+    </test>
+
+    <test name="Integration Flow Tests">
+        <classes>
+            <class name="ge.tbc.testautomation.ApiTests.IntegrationFlowTests"/>
+        </classes>
+    </test>
+
+    <test name="Data Preparation Tests">
+        <classes>
+            <class name="ge.tbc.testautomation.ApiTests.DataPreparationTests"/>
         </classes>
     </test>
 </suite>
