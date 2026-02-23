@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://interfaces.soap.springboot.example.com" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="interfaces.soap.springboot.example.com" targetNamespace="interfaces.soap.springboot.example.com">
   <wsdl:types>
+
     <xs:schema xmlns:tns="http://interfaces.soap.springboot.example.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://interfaces.soap.springboot.example.com">
+
 
 	<xs:complexType name="employeeInfo">
 		<xs:sequence>
