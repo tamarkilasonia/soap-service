@@ -22,6 +22,7 @@ public class Constants {
     public static final String BIRTHDATE_FOR_TAMARI = "2006-02-04";
 
 
+    
     public static final String NAME_UPDATED = "Tamari ";
     public static final String GMAIL_UPDATED = "tamari.@gmail.com";
     public static final String SABURTALO = "Saburtalo";
