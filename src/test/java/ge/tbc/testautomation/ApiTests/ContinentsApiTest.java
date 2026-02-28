@@ -23,6 +23,7 @@ public class ContinentsApiTest {
         RestAssured.baseURI = Constants.CONTINENT_URL;
     }
 
+    
     @Test
     public void continentsInfoTest() {
         Response response = given().when().get().then().extract().response();
