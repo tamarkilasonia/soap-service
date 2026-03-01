@@ -9,7 +9,6 @@ public class Constants {
     public static final String LOCAL_HOST_URL = "http://localhost:8087/ws";
     public static final String CONTINENT_URL = "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso/ListOfContinentsByName";
 
-    
 
     public static final String CONTENT_TYPE = "Content-Type";
     public static final String TEXT_XML = "text/xml; charset=utf-8";
@@ -23,7 +22,6 @@ public class Constants {
     public static final String BIRTHDATE_FOR_TAMARI = "2006-02-04";
 
 
-    
     public static final String NAME_UPDATED = "Tamari ";
     public static final String GMAIL_UPDATED = "tamari.@gmail.com";
     public static final String SABURTALO = "Saburtalo";
